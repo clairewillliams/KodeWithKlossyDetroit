@@ -35,24 +35,49 @@
 //print(newScholar.name)
 //print(newScholar.studying)
 
-class Phone {
-    var color = " "
-    var type = " "
-    var size = 0
-    
-    init(phoneColor : String, phoneType : String, phoneSize : Int) {
-        color = phoneColor
-        type = phoneType
-        size = phoneSize
-    }
-    func phoneModel() {
-        print("Claire has a \(color) \(type) with \(size) GB's")
-    }
-}
-
-var newPhone = Phone(phoneColor : "white", phoneType : "iPhone", phoneSize : 64)
+//class Phone {
+//    var color = " "
+//    var type = " "
+//    var size = 0
+//
+//    init(phoneColor : String, phoneType : String, phoneSize : Int) {
+//        color = phoneColor
+//        type = phoneType
+//        size = phoneSize
+//    }
+//    func phoneModel() {
+//        print("Claire has a \(color) \(type) with \(size) GB's")
+//    }
+//}
+//
+//var newPhone = Phone(phoneColor : "white", phoneType : "iPhone", phoneSize : 64)
 
 //newPhone.phoneModel()
 // things that must be inside the {} class:
     //var, init, func
 //objects must be outside the class
+
+class Dog {
+    var name = " "
+    var age = 0
+    var breed = " "
+    var breedType = ["Golden Retriever", "Dalmation", "Black Lab"]
+    init(dogName : String, dogAge : Int, dogBreed : String) {
+        name = dogName
+        age = dogAge
+        breed = dogBreed
+    }
+    func dogWoof() {
+        print("I'm \(name), woof woof!")
+    }
+    func faveBreed() {
+        for breeds in breedType {
+    print("my favorite dog breed is \(breeds)")
+    }
+}
+}
+
+var newDog = Dog(dogName : "Brandy", dogAge : 6, dogBreed : "Golden Retriever")
+newDog.dogWoof()
+newDog.faveBreed()
+
