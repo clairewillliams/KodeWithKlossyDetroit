@@ -24,8 +24,8 @@
                                 <color key="textColor" red="0.97846575760049026" green="1" blue="0.98491741679992628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds-19" translatesAutoresizingMaskIntoConstraints="NO" id="i0a-2y-Kly">
-                                <rect key="frame" x="120" y="198" width="174" height="1252"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="clouds-19" translatesAutoresizingMaskIntoConstraints="NO" id="i0a-2y-Kly">
+                                <rect key="frame" x="120" y="168" width="174" height="659"/>
                                 <color key="backgroundColor" red="0.065647974676002793" green="0.066171693755193481" blue="0.070965168786528365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
