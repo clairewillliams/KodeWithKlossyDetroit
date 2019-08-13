@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18EC63C32301A4A1007F9285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63C22301A4A1007F9285 /* AppDelegate.swift */; };
-		18EC63C82301A4A1007F9285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63C62301A4A1007F9285 /* Main.storyboard */; };
-		18EC63CB2301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63C92301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodeld */; };
-		18EC63CD2301A4A4007F9285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63CC2301A4A4007F9285 /* Assets.xcassets */; };
-		18EC63D02301A4A4007F9285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63CE2301A4A4007F9285 /* LaunchScreen.storyboard */; };
-		18EC63DA2301ABFD007F9285 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63D92301ABFD007F9285 /* TableViewController.swift */; };
-		18EC63DC2301AC3B007F9285 /* To-Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63DB2301AC3B007F9285 /* To-Do.swift */; };
-		18EC63E02301BF88007F9285 /* AddToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63DF2301BF88007F9285 /* AddToViewController.swift */; };
-		18EC64032302F15D007F9285 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC64022302F15D007F9285 /* CompleteToDoViewController.swift */; };
+		18EC63EE2301F46A007F9285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63ED2301F46A007F9285 /* AppDelegate.swift */; };
+		18EC63F02301F46A007F9285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63EF2301F46A007F9285 /* ViewController.swift */; };
+		18EC63F32301F46A007F9285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63F12301F46A007F9285 /* Main.storyboard */; };
+		18EC63F62301F46A007F9285 /* CameraAccess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EC63F42301F46A007F9285 /* CameraAccess.xcdatamodeld */; };
+		18EC63F82301F46B007F9285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63F72301F46B007F9285 /* Assets.xcassets */; };
+		18EC63FB2301F46B007F9285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC63F92301F46B007F9285 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18EC63BF2301A4A1007F9285 /* Claire's To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Claire's To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18EC63C22301A4A1007F9285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18EC63C72301A4A1007F9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18EC63CA2301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Claire_s_To_Do_List.xcdatamodel; sourceTree = "<group>"; };
-		18EC63CC2301A4A4007F9285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18EC63CF2301A4A4007F9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18EC63D12301A4A4007F9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18EC63D92301ABFD007F9285 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		18EC63DB2301AC3B007F9285 /* To-Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-Do.swift"; sourceTree = "<group>"; };
-		18EC63DF2301BF88007F9285 /* AddToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToViewController.swift; sourceTree = "<group>"; };
-		18EC64022302F15D007F9285 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		18EC63EA2301F46A007F9285 /* CameraAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC63ED2301F46A007F9285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EC63EF2301F46A007F9285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EC63F22301F46A007F9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EC63F52301F46A007F9285 /* CameraAccess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CameraAccess.xcdatamodel; sourceTree = "<group>"; };
+		18EC63F72301F46B007F9285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC63FA2301F46B007F9285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EC63FC2301F46B007F9285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18EC63BC2301A4A1007F9285 /* Frameworks */ = {
+		18EC63E72301F46A007F9285 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18EC63B62301A4A1007F9285 = {
+		18EC63E12301F46A007F9285 = {
 			isa = PBXGroup;
 			children = (
-				18EC63C12301A4A1007F9285 /* Claire's To Do List */,
-				18EC63C02301A4A1007F9285 /* Products */,
+				18EC63EC2301F46A007F9285 /* CameraAccess */,
+				18EC63EB2301F46A007F9285 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18EC63C02301A4A1007F9285 /* Products */ = {
+		18EC63EB2301F46A007F9285 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18EC63BF2301A4A1007F9285 /* Claire's To Do List.app */,
+				18EC63EA2301F46A007F9285 /* CameraAccess.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18EC63C12301A4A1007F9285 /* Claire's To Do List */ = {
+		18EC63EC2301F46A007F9285 /* CameraAccess */ = {
 			isa = PBXGroup;
 			children = (
-				18EC63C22301A4A1007F9285 /* AppDelegate.swift */,
-				18EC63C62301A4A1007F9285 /* Main.storyboard */,
-				18EC64022302F15D007F9285 /* CompleteToDoViewController.swift */,
-				18EC63DF2301BF88007F9285 /* AddToViewController.swift */,
-				18EC63CC2301A4A4007F9285 /* Assets.xcassets */,
-				18EC63CE2301A4A4007F9285 /* LaunchScreen.storyboard */,
-				18EC63D12301A4A4007F9285 /* Info.plist */,
-				18EC63C92301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodeld */,
-				18EC63DB2301AC3B007F9285 /* To-Do.swift */,
-				18EC63D92301ABFD007F9285 /* TableViewController.swift */,
+				18EC63ED2301F46A007F9285 /* AppDelegate.swift */,
+				18EC63EF2301F46A007F9285 /* ViewController.swift */,
+				18EC63F12301F46A007F9285 /* Main.storyboard */,
+				18EC63F72301F46B007F9285 /* Assets.xcassets */,
+				18EC63F92301F46B007F9285 /* LaunchScreen.storyboard */,
+				18EC63FC2301F46B007F9285 /* Info.plist */,
+				18EC63F42301F46A007F9285 /* CameraAccess.xcdatamodeld */,
 			);
-			path = "Claire's To Do List";
+			path = CameraAccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18EC63BE2301A4A1007F9285 /* Claire's To Do List */ = {
+		18EC63E92301F46A007F9285 /* CameraAccess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18EC63D42301A4A4007F9285 /* Build configuration list for PBXNativeTarget "Claire's To Do List" */;
+			buildConfigurationList = 18EC63FF2301F46B007F9285 /* Build configuration list for PBXNativeTarget "CameraAccess" */;
 			buildPhases = (
-				18EC63BB2301A4A1007F9285 /* Sources */,
-				18EC63BC2301A4A1007F9285 /* Frameworks */,
-				18EC63BD2301A4A1007F9285 /* Resources */,
+				18EC63E62301F46A007F9285 /* Sources */,
+				18EC63E72301F46A007F9285 /* Frameworks */,
+				18EC63E82301F46A007F9285 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Claire's To Do List";
-			productName = "Claire's To Do List";
-			productReference = 18EC63BF2301A4A1007F9285 /* Claire's To Do List.app */;
+			name = CameraAccess;
+			productName = CameraAccess;
+			productReference = 18EC63EA2301F46A007F9285 /* CameraAccess.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18EC63B72301A4A1007F9285 /* Project object */ = {
+		18EC63E22301F46A007F9285 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					18EC63BE2301A4A1007F9285 = {
+					18EC63E92301F46A007F9285 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 18EC63BA2301A4A1007F9285 /* Build configuration list for PBXProject "Claire's To Do List" */;
+			buildConfigurationList = 18EC63E52301F46A007F9285 /* Build configuration list for PBXProject "CameraAccess" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 18EC63B62301A4A1007F9285;
-			productRefGroup = 18EC63C02301A4A1007F9285 /* Products */;
+			mainGroup = 18EC63E12301F46A007F9285;
+			productRefGroup = 18EC63EB2301F46A007F9285 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18EC63BE2301A4A1007F9285 /* Claire's To Do List */,
+				18EC63E92301F46A007F9285 /* CameraAccess */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18EC63BD2301A4A1007F9285 /* Resources */ = {
+		18EC63E82301F46A007F9285 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EC63D02301A4A4007F9285 /* LaunchScreen.storyboard in Resources */,
-				18EC63CD2301A4A4007F9285 /* Assets.xcassets in Resources */,
-				18EC63C82301A4A1007F9285 /* Main.storyboard in Resources */,
+				18EC63FB2301F46B007F9285 /* LaunchScreen.storyboard in Resources */,
+				18EC63F82301F46B007F9285 /* Assets.xcassets in Resources */,
+				18EC63F32301F46A007F9285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18EC63BB2301A4A1007F9285 /* Sources */ = {
+		18EC63E62301F46A007F9285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EC63CB2301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodeld in Sources */,
-				18EC63E02301BF88007F9285 /* AddToViewController.swift in Sources */,
-				18EC63DC2301AC3B007F9285 /* To-Do.swift in Sources */,
-				18EC63C32301A4A1007F9285 /* AppDelegate.swift in Sources */,
-				18EC64032302F15D007F9285 /* CompleteToDoViewController.swift in Sources */,
-				18EC63DA2301ABFD007F9285 /* TableViewController.swift in Sources */,
+				18EC63F02301F46A007F9285 /* ViewController.swift in Sources */,
+				18EC63F62301F46A007F9285 /* CameraAccess.xcdatamodeld in Sources */,
+				18EC63EE2301F46A007F9285 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18EC63C62301A4A1007F9285 /* Main.storyboard */ = {
+		18EC63F12301F46A007F9285 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18EC63C72301A4A1007F9285 /* Base */,
+				18EC63F22301F46A007F9285 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18EC63CE2301A4A4007F9285 /* LaunchScreen.storyboard */ = {
+		18EC63F92301F46B007F9285 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18EC63CF2301A4A4007F9285 /* Base */,
+				18EC63FA2301F46B007F9285 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18EC63D22301A4A4007F9285 /* Debug */ = {
+		18EC63FD2301F46B007F9285 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		18EC63D32301A4A4007F9285 /* Release */ = {
+		18EC63FE2301F46B007F9285 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,34 +282,34 @@
 			};
 			name = Release;
 		};
-		18EC63D52301A4A4007F9285 /* Debug */ = {
+		18EC64002301F46B007F9285 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Claire's To Do List/Info.plist";
+				INFOPLIST_FILE = CameraAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Claire.Claire-s-To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = Claire.CameraAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18EC63D62301A4A4007F9285 /* Release */ = {
+		18EC64012301F46B007F9285 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Claire's To Do List/Info.plist";
+				INFOPLIST_FILE = CameraAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Claire.Claire-s-To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = Claire.CameraAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,20 +319,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18EC63BA2301A4A1007F9285 /* Build configuration list for PBXProject "Claire's To Do List" */ = {
+		18EC63E52301F46A007F9285 /* Build configuration list for PBXProject "CameraAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18EC63D22301A4A4007F9285 /* Debug */,
-				18EC63D32301A4A4007F9285 /* Release */,
+				18EC63FD2301F46B007F9285 /* Debug */,
+				18EC63FE2301F46B007F9285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18EC63D42301A4A4007F9285 /* Build configuration list for PBXNativeTarget "Claire's To Do List" */ = {
+		18EC63FF2301F46B007F9285 /* Build configuration list for PBXNativeTarget "CameraAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18EC63D52301A4A4007F9285 /* Debug */,
-				18EC63D62301A4A4007F9285 /* Release */,
+				18EC64002301F46B007F9285 /* Debug */,
+				18EC64012301F46B007F9285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,17 +340,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18EC63C92301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodeld */ = {
+		18EC63F42301F46A007F9285 /* CameraAccess.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				18EC63CA2301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodel */,
+				18EC63F52301F46A007F9285 /* CameraAccess.xcdatamodel */,
 			);
-			currentVersion = 18EC63CA2301A4A1007F9285 /* Claire_s_To_Do_List.xcdatamodel */;
-			path = Claire_s_To_Do_List.xcdatamodeld;
+			currentVersion = 18EC63F52301F46A007F9285 /* CameraAccess.xcdatamodel */;
+			path = CameraAccess.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 18EC63B72301A4A1007F9285 /* Project object */;
+	rootObject = 18EC63E22301F46A007F9285 /* Project object */;
 }
